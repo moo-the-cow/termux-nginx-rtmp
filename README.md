@@ -4,8 +4,10 @@ This is an `nginx` build for Termux that includes `nginx-rtmp-module`.
 
 ## Pre-Requirements
 + termux-services
++ openssl-1.1 (legacy)
 ```sh
-apt install termux-services
+apt install termux-services openssl-1.1
+ln -s $PREFIX/lib/openssl-1.1/libssl.so.1.1 $PREFIX/lib/libssl.so.1.1
 ```
 
 ## Installation

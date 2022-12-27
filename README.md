@@ -30,3 +30,4 @@ curl wget https://raw.githubusercontent.com/moo-the-cow/termux-nginx-rtmp/main/n
 sv-enable nginx
 sv up nginx
 ```
+Hint: first time I had to restart the device and then it worked

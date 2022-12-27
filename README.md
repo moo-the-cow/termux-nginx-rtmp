@@ -22,7 +22,7 @@ apt install nginx-rtmp
 
 # Tweak nginx.conf
 ```sh
-curl -o $PREFIX/etc/nginx/nginx.conf wget https://raw.githubusercontent.com/moo-the-cow/streaming/main/mobile-streaming/nginx.conf
+curl wget https://raw.githubusercontent.com/moo-the-cow/streaming/main/mobile-streaming/nginx.conf > $PREFIX/etc/nginx/nginx.conf
 ```
 
 ## Enable and Start Service

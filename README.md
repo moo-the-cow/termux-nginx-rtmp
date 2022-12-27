@@ -2,6 +2,13 @@
 
 This is an `nginx` build for Termux that includes `nginx-rtmp-module`.
 
+## Pre-Requirements
++ libssl
++ termux-services
+```sh
+apt install termux-services
+```
+
 ## Installation
 
 ```sh

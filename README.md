@@ -19,3 +19,9 @@ echo "deb [trusted=yes] https://moo-the-cow.github.io/termux-nginx-rtmp/ termux 
 apt update
 apt install nginx-rtmp
 ```
+
+## Enable and Start Service
+```sh
+sv-enable nginx
+sv-up nginx
+```

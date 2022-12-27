@@ -31,4 +31,4 @@ mkdir -p $PREFIX/www/static/ && curl https://raw.githubusercontent.com/moo-the-c
 sv-enable nginx
 sv up nginx
 ```
-Hint: first time I had to restart the device and then it worked
+Hint: first time I had to restart the termux session and then it worked

@@ -3,6 +3,7 @@
 This is an `nginx` build for Termux that includes `nginx-rtmp-module`.
 
 ## Pre-Requirements
++ termux from f-droid repo (google play is outdated)
 + termux-services
 + openssl-1.1 (legacy)
 ```sh

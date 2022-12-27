@@ -23,5 +23,5 @@ apt install nginx-rtmp
 ## Enable and Start Service
 ```sh
 sv-enable nginx
-sv-up nginx
+sv up nginx
 ```

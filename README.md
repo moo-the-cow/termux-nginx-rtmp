@@ -30,9 +30,9 @@ envsubst < $PREFIX/etc/nginx/nginx.conf.template > $PREFIX/etc/nginx/nginx.conf
 mkdir -p $PREFIX/www/static/ && curl https://raw.githubusercontent.com/moo-the-cow/termux-nginx-rtmp/main/stat.xsl > $PREFIX/www/static/stat.xsl
 ```
 
+Hint: first time I had to restart the phone and then the following command worked
 ## Enable and Start Service
 ```sh
 sv-enable nginx
 sv up nginx
 ```
-Hint: first time I had to restart the phone and then it worked
